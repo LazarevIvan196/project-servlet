@@ -1,0 +1,20 @@
+td {
+    border: 3px solid black;
+    padding: 10px;
+    border-collapse: separate;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    text-align: center;
+    empty-cells: show;
+    background-color: #6fa7dc;
+    color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 5px rgba(5, 228, 239, 0.93);
+    transition: background-color 1s ease;
+}
+
+/* Дополнительный стиль при наведении курсора */
+td:hover {
+    background-color: #bc0eff;
+}
